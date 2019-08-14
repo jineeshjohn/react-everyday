@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  background: #f1f1f1;
+  color: #333;
+  letter-spacing: 1.1px;
+}
+.title {
+  padding: 1rem;
+  text-align: center;
+}
+.inputContainer {
+  margin: 1rem;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputContainer input {
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  background: none;
+  width: 15rem;
+  padding: 0.5rem;
+}
+
+.inputContainer input:focus {
+  outline: none;
+}
+
+.button {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 100%;
+  color: #000;
+  font-weight: 900;
+  background: #CCC;
+  cursor: pointer;
+}
